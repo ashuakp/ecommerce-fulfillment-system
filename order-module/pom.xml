@@ -15,6 +15,14 @@
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Add embedded Tomcat -->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>10.1.19</version>
         </dependency>
         <!-- Will depend on core later: -->
         <!-- <dependency>
@@ -22,5 +30,6 @@
             <artifactId>ecommerce-core</artifactId>
             <version>${project.version}</version>
         </dependency> -->
+
     </dependencies>
 </project>
